@@ -10,7 +10,7 @@ import MealDetailScreen from "./screens/MealDetailScreen";
 import FavouritesScreen from "./screens/FavouritesScreen";
 
 const Stack = createNativeStackNavigator();
-const Drawer = createNativeStackNavigator();
+const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
   return (
